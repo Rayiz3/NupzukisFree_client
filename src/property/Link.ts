@@ -1,4 +1,4 @@
 export const links = {
-    localhost: "http://localhost:3000",
-    serverAddress: "http://localhost:4242",
+    localhost: import.meta.env.VITE_CLIENT_URL,
+    serverAddress: import.meta.env.VITE_SERVER_URL,
 }
